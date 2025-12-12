@@ -60,6 +60,7 @@ public class Paciente {
         this.ativo = false;
     }
 
+    // Método recursivo, com loop infinito, criado para forçar/demonstrar StackOverFlowError
     public List<Consulta> consultas(){
         return consultas();
     }
